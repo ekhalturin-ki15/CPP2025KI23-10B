@@ -14,7 +14,7 @@ int main()
     out.open("output.txt");
     {
         std::shared_ptr<Character> player2;
-        player2 = std::make_shared<Character>(3, 2, 34);
+        player2 = std::make_shared<Character>(3, 2, 34, 10, 21, "Jeck");
     }
 
 
