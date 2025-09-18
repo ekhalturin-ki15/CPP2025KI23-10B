@@ -3,6 +3,7 @@
 #include <fstream>
 #include <iostream>
 #include <memory>
+#include "Character_Controller.h"
 
 int main()
 {
@@ -13,8 +14,8 @@ int main()
     in.open("input.txt");
     out.open("output.txt");
     {
-        std::shared_ptr<Character> player2;
-        player2 = std::make_shared<Character>(3, 2, 34);
+        Character_Controller FCharacterController;
+        FCharacterController.init(in);
     }
 
 

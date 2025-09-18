@@ -17,7 +17,7 @@ public:
     int         armor;
     int         water;
     int         eat;
-    string*               name;    // Размер
+    string      name;    // Размер
     std::shared_ptr<Character> ptrMarried;
     std::shared_ptr<Pet>       ptrPet;
     
