@@ -125,7 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Character_Controller.cpp" />
-    <ClCompile Include="CPP2025KI23-10B.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Pet.cpp" />
   </ItemGroup>
   <ItemGroup>
