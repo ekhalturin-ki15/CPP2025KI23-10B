@@ -1,9 +1,4 @@
 ﻿  CPP2025KI23-10B.cpp
-  Character.cpp
   Pet.cpp
-D:\acmp\CPP2025KI23-10B\CPP2025KI23-10B\Character.cpp(6,12): error C2511: Character::Character(int,std::string,Pet *,Character *): перегруженная функция-член не найдена в "Character"
-      D:\acmp\CPP2025KI23-10B\CPP2025KI23-10B\Pet.h(4,7):
-       см. объявление "Character"
-  
-D:\acmp\CPP2025KI23-10B\CPP2025KI23-10B\Character.cpp(9,1): error C2550: Character::{ctor}: список инициализации конструктора должен использоваться только в месте определения конструктора
   Создание кода...
+  CPP2025KI23-10B.vcxproj -> D:\acmp\CPP2025KI23-10B\x64\Debug\CPP2025KI23-10B.exe

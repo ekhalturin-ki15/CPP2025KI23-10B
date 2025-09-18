@@ -14,11 +14,7 @@ int main()
     out.open("output.txt");
     {
         std::shared_ptr<Character> player2;
-
-        // CreateDefaultSubobject (blueprint)
-        // new
-
-        player2 = std::make_shared<Character>();
+        player2 = std::make_shared<Character>(3, 2, 34);
     }
 
 

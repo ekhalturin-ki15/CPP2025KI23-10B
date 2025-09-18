@@ -1,23 +1,25 @@
 #pragma once
+//#include <string>
+#include <memory>
 #include <string>
-
+using namespace std;
 class Pet;
 
 class Character
 {
 public:
 
-    //Character(int _hp, std::string _name, Pet* _ptrPet, Character* _ptrMarried);
-    //Character() = default;
+    Character(int _hp, int _damage, int _armor);
+    Character() = default;
 
     int         hp;
     int         damage;
     int         armor;
     int         water;
     int         eat;
-    std::string name;    // Размер
-    Character*  ptrMarried;
-    Pet*        ptrPet;
+    string*               name;    // Размер
+    std::shared_ptr<Character> ptrMarried;
+    std::shared_ptr<Pet>       ptrPet;
     
     
 };
