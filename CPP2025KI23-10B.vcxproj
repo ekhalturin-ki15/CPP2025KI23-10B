@@ -125,6 +125,8 @@
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Character_Controller.cpp" />
+    <ClCompile Include="Game_Mode.cpp" />
+    <ClCompile Include="Game_Loop.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pet.cpp" />
   </ItemGroup>
@@ -135,6 +137,8 @@
   <ItemGroup>
     <ClInclude Include="Character.h" />
     <ClInclude Include="Character_Controller.h" />
+    <ClInclude Include="Game_Mode.h" />
+    <ClInclude Include="Game_Loop.h" />
     <ClInclude Include="Pet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
