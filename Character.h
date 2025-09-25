@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 //#include <string>
 #include <memory>
 #include <string>
@@ -17,8 +17,8 @@ public:
     int         damage;
     int         armor;
     int         water;
-    int         food;
-    string      name;    // ??????
+    int         food;   // Еда
+    string      name;    
     std::shared_ptr<Character> ptrMarried;
     std::shared_ptr<Pet>       ptrPet;
     
