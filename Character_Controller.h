@@ -4,6 +4,7 @@
 #include <fstream>
 
 class Character;
+class Game_Mode;
 
 using namespace std;
 
@@ -14,5 +15,5 @@ private:
     shared_ptr<Character>         Player;
 
 public:
-    void                          init(ifstream& in);
+    void                          init(ifstream& in, shared_ptr<Game_Mode> _GM);
 };

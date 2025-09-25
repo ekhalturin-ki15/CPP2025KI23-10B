@@ -11,7 +11,7 @@ using namespace std;
 class Game_Mode
 {
 public:
-    Game_Mode();
+    // Game_Mode();
     std::ifstream in;
     std::ofstream out;
 
@@ -23,5 +23,5 @@ public:
     shared_ptr<Game_Mode>            This;
 
     //Game_Loop*                     ptrGL;
-
+    void init(shared_ptr<Game_Mode> _This);
 };
