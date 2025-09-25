@@ -31,5 +31,8 @@
 *.out
 *.app
 
+x64/
+Debug/
+CPP2025KI23-10B/
 .vs/
 .idea/
