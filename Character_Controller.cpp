@@ -5,8 +5,6 @@ void Character_Controller::init(ifstream& in)
 {
     int number_of_characters;
     
-    
-    
     Player = make_shared<Character>();
     in >> Player->hp;
     in >> Player->damage;
@@ -27,8 +25,4 @@ void Character_Controller::init(ifstream& in)
         in >> element->food;
         in >> element->name;
     }
-    /*string name1;
-    in >> name1;
-    Player -> name = new string(name1);
-    */
 }

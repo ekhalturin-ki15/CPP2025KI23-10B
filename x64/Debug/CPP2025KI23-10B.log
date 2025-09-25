@@ -1,23 +1,5 @@
-﻿  Character.cpp
-D:\acmp\CPP2025KI23-10B\CPP2025KI23-10B\Character.cpp(10,7): error C2614: Character: недопустимая инициализация члена: "eat" не является базовым классом или членом
-  Character_Controller.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xutility(255,61): error C2512: Character::Character: нет подходящего конструктора по умолчанию
-  (компиляция исходного файла "Character_Controller.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xutility(255,61):
-      при попытке сопоставить список аргументов "()"
-      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xutility(255,61):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          D:\acmp\CPP2025KI23-10B\CPP2025KI23-10B\Character_Controller.cpp(10,14):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<Character> std::make_shared<Character,>(void)"
-          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::_Ref_count_obj2<Character>::_Ref_count_obj2<>(void)"
-          C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
-          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Construct_in_place<_Ty,>(_Ty &) noexcept(false)"
-          with
-          [
-              _Ty=Character
-          ]
-  
+﻿  Game_Loop.cpp
+  Game_Mode.cpp
   main.cpp
-  Pet.cpp
   Создание кода...
+  CPP2025KI23-10B.vcxproj -> D:\acmp\CPP2025KI23-10B\x64\Debug\CPP2025KI23-10B.exe
