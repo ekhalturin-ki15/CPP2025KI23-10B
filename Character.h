@@ -16,8 +16,8 @@ public:
     int         damage;
     int         armor;
     int         water;
-    int         eat;
-    string      name;    // Размер
+    int         food;
+    string      name;    // ??????
     std::shared_ptr<Character> ptrMarried;
     std::shared_ptr<Pet>       ptrPet;
     
