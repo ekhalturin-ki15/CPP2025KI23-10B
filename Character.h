@@ -9,9 +9,9 @@ class Character
 {
 public:
 
-    Character(int _hp, int _damage, int _armor, int _water, int _eat,
-              string _name);
-    //Character() = default;
+    Character(int, int, int, int, int,
+              string);
+    Character() = default;
 
     int         hp;
     int         damage;
