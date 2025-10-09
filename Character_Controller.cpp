@@ -1,7 +1,8 @@
 #include "Character_Controller.h"
 #include "Character.h"
+#include "Game_Mode.h"
 
-void Character_Controller::init(ifstream& in)
+void Character_Controller::init(ifstream& in, shared_ptr<Game_Mode> _GM)
 {
     int number_of_characters;
     
