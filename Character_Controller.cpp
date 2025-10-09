@@ -1,6 +1,7 @@
 #include "Character_Controller.h"
 #include "Character.h"
 #include "Game_Mode.h"
+#include "Pet.h"
 
 void Character_Controller::init(ifstream& in, shared_ptr<Game_Mode> _GM)
 {
@@ -26,4 +27,15 @@ void Character_Controller::init(ifstream& in, shared_ptr<Game_Mode> _GM)
         in >> element->food;
         in >> element->name;
     }
+}
+
+string Character_Controller::get_all_characters_info()
+{
+    string result;
+    result += "Player: " + Player->get_info() + "\n";
+    for (auto& element : arr_Character)
+    {
+        result += element->get_info() + "\n";
+    }
+    return result;
 }

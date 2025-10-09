@@ -15,5 +15,6 @@ private:
     shared_ptr<Character>         Player;
 
 public:
-    void                          init(ifstream& in, shared_ptr<Game_Mode> _GM);
+    void   init(ifstream&, shared_ptr<Game_Mode>);
+    string get_all_characters_info();
 };

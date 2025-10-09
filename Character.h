@@ -21,6 +21,6 @@ public:
     string      name;    
     std::shared_ptr<Character> ptrMarried;
     std::shared_ptr<Pet>       ptrPet;
-    
+    string get_info();
     
 };
